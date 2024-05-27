@@ -1,0 +1,63 @@
+body{
+    font-family:sans-serif;
+}
+.container{
+    display:flex;
+    flex-wrap:wrap;
+    gap:1rem;
+    justify-content:center;
+    margin-top:1.5rem;
+}
+.beer-card{
+    border-radius:6px;
+    width:350px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    box-shadow:0 2px 3px rgba(0, 0, 0, 0.514);
+    background-color:bisque;
+}
+.beer-card img{
+    width:100px;
+    height:100%;
+}
+.beer-card h2{
+    font-size:24px;
+    font-weight:600;
+    margin-bottom:0;
+}
+.beer-card .price{
+    margin:0;
+    margin-top:10px;
+}
+.rating{
+    display:flex;
+    justify-content:space-around;
+    gap:20px;
+
+}
+
+.App{
+    text-align:center;
+}
+form{
+    margin:2rem;
+}
+form input{
+    outline:none;
+    padding:10px;
+    font-size:18px;
+    border:1px solid rgba(0, 0, 0, 0.32);
+    border-radius:6px 0 0 6px;
+    width:300px;
+    border-right:none;
+}
+form button{
+    padding:10px;
+    font-size:18px;
+    border:1px solid rgba(0, 0, 0, 0.32);
+    border-radius:0 6px 6px 0;
+    border-left:none;
+    background-color: #088178;
+}
